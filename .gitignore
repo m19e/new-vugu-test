@@ -1,4 +1,7 @@
 bin
-dist
+# dist
 **_vgen.go
 .vscode
+
+# Local Netlify folder
+.netlify
