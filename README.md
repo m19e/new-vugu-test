@@ -11,3 +11,5 @@ vgrun devserver.go
 ```
 
 Then browse to the running server: http://localhost:8844/
+
+Deploy on Netlify: https://novel-formatter.netlify.app/
