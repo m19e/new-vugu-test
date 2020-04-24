@@ -1,6 +1,6 @@
 # Novel Formatter
 
-### This is [Vugu](https://www.vugu.org/) App. Format text for Novel following rules.
+This is [Vugu](https://www.vugu.org/) App. Format text for Novel following rules.
 
 ## Formatting Rules
 
