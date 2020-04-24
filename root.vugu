@@ -17,10 +17,8 @@
                     color: gray;
                 "
             >
-                <span vg-html="c.PureCount"></span>(<span
-                    vg-html="c.PlainCount"
-                ></span
-                >) words
+                <span vg-html="c.PureCount"></span>
+                (<span vg-html="c.PlainCount"></span>) words
             </p>
         </div>
         <button @click="c.Format()" class="btn btn-primary btn-lg btn-block">
