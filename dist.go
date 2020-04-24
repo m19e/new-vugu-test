@@ -54,7 +54,7 @@ func main() {
 	outf, err := os.OpenFile(filepath.Join(*dist, "index.html"), os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
 	distutil.Must(err)
 	defer outf.Close()
-	template.Must(template.New("_page_").Parse(simplehttp.DefaultPageTemplateSource)).Execute(outf, map[string]interface{}{"Request": req})
+	template.Must(template.New("_page_").Parse(simplehttp.DefaultPageTemplateSource)).Execute(outf, map[string]interface{}{"Request": req, "Title": "Novel Formatter"})
 
 	// BUILD GO SERVER:
 	// or if you are deploying a Go server (yay!) you can build that binary here
